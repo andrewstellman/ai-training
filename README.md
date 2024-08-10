@@ -2,9 +2,54 @@
 
 This is the page for my [Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/) course. It's still under construction!
 
-## Code for the first exercise
 
-### Java version
+# Code for the first exercise
+
+## Java version
+```Java
+public class Greeter {
+    public static String greet(String name) {
+        if (name == null || name.trim().isEmpty()) {
+            return "Hello, stranger!";
+        }
+        return "Hello, " + name + "!";
+    }
+
+    public static void main(String[] args) {
+        System.out.println(greet("Alice"));
+        System.out.println(greet(""));
+        System.out.println(greet(null));
+    }
+}
+```
+
+## C# Version
+```csharp
+using System;
+
+public class Greeter
+{
+    public static string Greet(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            return "Hello, stranger!";
+        }
+        return $"Hello, {name}!";
+    }
+
+    public static void Main(string[] args)
+    {
+        Console.WriteLine(Greet("Alice"));
+        Console.WriteLine(Greet(""));
+        Console.WriteLine(Greet(null));
+    }
+}
+```
+
+# Code for the second exercise
+
+## Java version
 ```Java
 public class CustomSorter {
     public static void bubbleSort(int[] arr) {
@@ -29,7 +74,7 @@ public class CustomSorter {
 }
 ```
 
-### C# version
+## C# version
 
 ```csharp
 public class CustomSorter
