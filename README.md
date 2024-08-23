@@ -1,6 +1,10 @@
 # ai-training
 
-This is the page for my [Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/) course. It's still under construction!
+This is the page for my [Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/) course.
+
+Here's a PDF of the slide deck: [```Prompting Copilot and ChatGPT for Code 2024-09-06```](https://github.com/andrewstellman/ai-training/raw/main/Prompting%20Copilot%20and%20ChatGPT%20for%20Code%202024-09-06.pdf)
+
+It's still under construction!
 
 
 # Code for the first exercise
