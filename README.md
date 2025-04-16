@@ -4,7 +4,9 @@
 
 This is the page for my [Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/) O'Reilly Live Training course.
 
-Here's a PDF of the slide deck: [```Prompting Copilot and ChatGPT for Code 2024-09-06```](https://github.com/andrewstellman/ai-training/raw/main/Prompting%20Copilot%20and%20ChatGPT%20for%20Code%202024-09-06.pdf)
+Here's a PDF of the slide deck:
+ * From the 16-Apr-2025 session: [```Copilot and ChatGPT for Java and C# Developers 2025-04-16.pdf```](https://github.com/andrewstellman/ai-training/raw/main/Copilot%20and%20ChatGPT%20for%20Java%20and%20C%23%20Developers%202025-04-16.pdf)
+ * From the 06-Sep-2024 and 15-Jan-2025 sessions: [```Prompting Copilot and ChatGPT for Code 2024-09-06.pdf```](https://github.com/andrewstellman/ai-training/raw/main/Prompting%20Copilot%20and%20ChatGPT%20for%20Code%202024-09-06.pdf)
 
 
 # Code for the first exercise
