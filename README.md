@@ -1,6 +1,6 @@
 # ai-training
 
-<img width="1314" alt="image" src="https://github.com/user-attachments/assets/ddbd0d17-0fe2-4e3d-888a-85a3761c269e">
+<img width="1287" alt="image" src="https://github.com/user-attachments/assets/9bc4906d-e1ae-43ed-89a2-bc77eba16abb" />
 
 This is the page for my [Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/) O'Reilly Live Training course.
 
