@@ -6,7 +6,7 @@
 
 This is the GitHub page for my O'Reilly Live Training courses on AI-assisted coding:
 
-* **[AI-Assisted Coding with Claude and Cursor](https://learning.oreilly.com/live-events/...)** — Using Claude and the Cursor IDE to write, analyze, and improve code
+* **[AI-Assisted Coding with Claude and Cursor](https://www.oreilly.com/live-events/ai-assisted-coding-with-claude-and-cursor/0642572272111/)** — Using Claude and the Cursor IDE to write, analyze, and improve code
 * **[Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/)** — Using GitHub Copilot and ChatGPT for Java and C# development
 
 Both courses cover prompt engineering fundamentals, AI-assisted code analysis, refactoring, and test generation. The exercises below work with either course—just choose your preferred language.
