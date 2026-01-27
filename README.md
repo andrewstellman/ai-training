@@ -1,5 +1,7 @@
 # ai-training
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/889c7656-dfce-407a-aba5-508496014004" />
+
 <img width="1287" alt="image" src="https://github.com/user-attachments/assets/9bc4906d-e1ae-43ed-89a2-bc77eba16abb" />
 
 This is the GitHub page for my O'Reilly Live Training courses on AI-assisted coding:
