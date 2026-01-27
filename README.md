@@ -2,18 +2,49 @@
 
 <img width="1287" alt="image" src="https://github.com/user-attachments/assets/9bc4906d-e1ae-43ed-89a2-bc77eba16abb" />
 
-This is the page for my [Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/) O'Reilly Live Training course.
+This is the GitHub page for my O'Reilly Live Training courses on AI-assisted coding:
 
-Here's a PDF of the slide deck:
+* **[AI-Assisted Coding with Claude and Cursor](https://learning.oreilly.com/live-events/...)** — Using Claude and the Cursor IDE to write, analyze, and improve code
+* **[Prompting Copilot and ChatGPT for Code](https://learning.oreilly.com/live-events/prompting-copilot-and-chatgpt-for-code/0642572004454/0642572004453/)** — Using GitHub Copilot and ChatGPT for Java and C# development
+
+Both courses cover prompt engineering fundamentals, AI-assisted code analysis, refactoring, and test generation. The exercises below work with either course—just choose your preferred language.
+
+---
+
+## Slide Decks
+
+### AI-Assisted Coding with Claude and Cursor
+ * Coming soon
+
+### Prompting Copilot and ChatGPT for Code
  * From the 12-Aug-2025 session: [```Copilot and ChatGPT for Java and C# Developers 2025-08-12.pdf```](https://github.com/andrewstellman/ai-training/raw/main/Copilot%20and%20ChatGPT%20for%20Java%20and%20C%23%20Developers%202025-08-12.pdf)
  * From the 16-Apr-2025 session: [```Copilot and ChatGPT for Java and C# Developers 2025-04-16.pdf```](https://github.com/andrewstellman/ai-training/raw/main/Copilot%20and%20ChatGPT%20for%20Java%20and%20C%23%20Developers%202025-04-16.pdf)
  * From the 06-Sep-2024 and 15-Jan-2025 sessions: [```Prompting Copilot and ChatGPT for Code 2024-09-06.pdf```](https://github.com/andrewstellman/ai-training/raw/main/Prompting%20Copilot%20and%20ChatGPT%20for%20Code%202024-09-06.pdf)
 
+---
 
 # Code for the first exercise
 
+Use this code to practice asking an AI to explain and analyze code.
+
+## Python version
+```python
+class Greeter:
+    @staticmethod
+    def greet(name: str | None) -> str:
+        if name is None or name.strip() == "":
+            return "Hello, stranger!"
+        return f"Hello, {name}!"
+
+
+if __name__ == "__main__":
+    print(Greeter.greet("Alice"))
+    print(Greeter.greet(""))
+    print(Greeter.greet(None))
+```
+
 ## Java version
-```Java
+```java
 public class Greeter {
     public static String greet(String name) {
         if (name == null || name.trim().isEmpty()) {
@@ -30,7 +61,7 @@ public class Greeter {
 }
 ```
 
-## C# Version
+## C# version
 ```csharp
 using System;
 
@@ -54,19 +85,49 @@ public class Greeter
 }
 ```
 
+---
+
 # Code for the second exercise
 
+Use this code to practice asking an AI for improvements, documentation, and refactoring suggestions.
+
+## Python version
+```python
+class CustomSorter:
+    @staticmethod
+    def bubble_sort(arr: list[int]) -> None:
+        n = len(arr)
+        for i in range(n - 1):
+            for j in range(n - i - 1):
+                if arr[j] > arr[j + 1]:
+                    arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+    @staticmethod
+    def print_array(arr: list[int]) -> None:
+        print(" ".join(str(i) for i in arr))
+
+
+if __name__ == "__main__":
+    numbers = [64, 34, 25, 12, 22, 11, 90]
+    print("Original array:")
+    CustomSorter.print_array(numbers)
+    
+    CustomSorter.bubble_sort(numbers)
+    print("Sorted array:")
+    CustomSorter.print_array(numbers)
+```
+
 ## Java version
-```Java
+```java
 public class CustomSorter {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
-        for (int i = 0; i < n-1; i++) {
-            for (int j = 0; j < n-i-1; j++) {
-                if (arr[j] > arr[j+1]) {
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
             }
         }
@@ -78,12 +139,23 @@ public class CustomSorter {
         }
         System.out.println();
     }
+
+    public static void main(String[] args) {
+        int[] numbers = {64, 34, 25, 12, 22, 11, 90};
+        System.out.println("Original array:");
+        printArray(numbers);
+        
+        bubbleSort(numbers);
+        System.out.println("Sorted array:");
+        printArray(numbers);
+    }
 }
 ```
 
 ## C# version
-
 ```csharp
+using System;
+
 public class CustomSorter
 {
     public static void BubbleSort(int[] arr)
@@ -111,5 +183,22 @@ public class CustomSorter
         }
         Console.WriteLine();
     }
+
+    public static void Main(string[] args)
+    {
+        int[] numbers = {64, 34, 25, 12, 22, 11, 90};
+        Console.WriteLine("Original array:");
+        PrintArray(numbers);
+        
+        BubbleSort(numbers);
+        Console.WriteLine("Sorted array:");
+        PrintArray(numbers);
+    }
 }
 ```
+
+---
+
+## Questions or issues?
+
+If you run into any problems with the exercises or have questions about the course, feel free to [open an issue](https://github.com/andrewstellman/ai-training/issues) on this repo.
