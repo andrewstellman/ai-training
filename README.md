@@ -16,6 +16,7 @@ Both courses cover prompt engineering fundamentals, AI-assisted code analysis, r
 ## Slide Decks
 
 ### AI-Assisted Coding with Claude and Cursor
+ * From the 09-Apr-2026 session: [```AI-Assisted Coding with Claude and Cursor 2026-04-09.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20Claude%20and%20Cursor%202026-04-09.pdf)
  * From the 25-Feb-2026 session: [```AI-Assisted Coding with Claude and Cursor 2026-02-25.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20Claude%20and%20Cursor%202026-02-25.pdf)
 
 ### Prompting Copilot and ChatGPT for Code
