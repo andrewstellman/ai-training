@@ -28,70 +28,6 @@ Both courses cover prompt engineering fundamentals, AI-assisted code analysis, r
 
 # Code for the first exercise
 
-Use this code to practice asking an AI to explain and analyze code.
-
-## Python version
-```python
-class Greeter:
-    @staticmethod
-    def greet(name: str | None) -> str:
-        if name is None or name.strip() == "":
-            return "Hello, stranger!"
-        return f"Hello, {name}!"
-
-
-if __name__ == "__main__":
-    print(Greeter.greet("Alice"))
-    print(Greeter.greet(""))
-    print(Greeter.greet(None))
-```
-
-## Java version
-```java
-public class Greeter {
-    public static String greet(String name) {
-        if (name == null || name.trim().isEmpty()) {
-            return "Hello, stranger!";
-        }
-        return "Hello, " + name + "!";
-    }
-
-    public static void main(String[] args) {
-        System.out.println(greet("Alice"));
-        System.out.println(greet(""));
-        System.out.println(greet(null));
-    }
-}
-```
-
-## C# version
-```csharp
-using System;
-
-public class Greeter
-{
-    public static string Greet(string name)
-    {
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            return "Hello, stranger!";
-        }
-        return $"Hello, {name}!";
-    }
-
-    public static void Main(string[] args)
-    {
-        Console.WriteLine(Greet("Alice"));
-        Console.WriteLine(Greet(""));
-        Console.WriteLine(Greet(null));
-    }
-}
-```
-
----
-
-# Code for the second exercise
-
 Use this code to practice asking an AI for improvements, documentation, and refactoring suggestions.
 
 ## Python version
@@ -196,6 +132,70 @@ public class CustomSorter
         BubbleSort(numbers);
         Console.WriteLine("Sorted array:");
         PrintArray(numbers);
+    }
+}
+```
+
+---
+
+# Code for the second exercise
+
+Use this code to practice asking an AI to explain and analyze code.
+
+## Python version
+```python
+class Greeter:
+    @staticmethod
+    def greet(name: str | None) -> str:
+        if name is None or name.strip() == "":
+            return "Hello, stranger!"
+        return f"Hello, {name}!"
+
+
+if __name__ == "__main__":
+    print(Greeter.greet("Alice"))
+    print(Greeter.greet(""))
+    print(Greeter.greet(None))
+```
+
+## Java version
+```java
+public class Greeter {
+    public static String greet(String name) {
+        if (name == null || name.trim().isEmpty()) {
+            return "Hello, stranger!";
+        }
+        return "Hello, " + name + "!";
+    }
+
+    public static void main(String[] args) {
+        System.out.println(greet("Alice"));
+        System.out.println(greet(""));
+        System.out.println(greet(null));
+    }
+}
+```
+
+## C# version
+```csharp
+using System;
+
+public class Greeter
+{
+    public static string Greet(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            return "Hello, stranger!";
+        }
+        return $"Hello, {name}!";
+    }
+
+    public static void Main(string[] args)
+    {
+        Console.WriteLine(Greet("Alice"));
+        Console.WriteLine(Greet(""));
+        Console.WriteLine(Greet(null));
     }
 }
 ```
