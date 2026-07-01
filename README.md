@@ -18,7 +18,7 @@ Both courses cover prompt engineering fundamentals, AI-assisted code analysis, r
  * From the 09-Apr-2026 session: [```AI-Assisted Coding with Claude and Cursor 2026-04-09.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20Claude%20and%20Cursor%202026-04-09.pdf)
  * From the 25-Feb-2026 session: [```AI-Assisted Coding with Claude and Cursor 2026-02-25.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20Claude%20and%20Cursor%202026-02-25.pdf)
 
-### Prompting Copilot and ChatGPT for Code
+### AI-Assisted Coding with ChatGPT and Copilot
  * From the 08-Jul-2025 session: [```Copilot and ChatGPT for Java and C# Developers 2026-07-08.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20ChatGPT%20and%20Copilot%202026-07-08.pdf)
  * From the 12-Aug-2025 session: [```Copilot and ChatGPT for Java and C# Developers 2025-08-12.pdf```](https://github.com/andrewstellman/ai-training/raw/main/Copilot%20and%20ChatGPT%20for%20Java%20and%20C%23%20Developers%202025-08-12.pdf)
  * From the 16-Apr-2025 session: [```Copilot and ChatGPT for Java and C# Developers 2025-04-16.pdf```](https://github.com/andrewstellman/ai-training/raw/main/Copilot%20and%20ChatGPT%20for%20Java%20and%20C%23%20Developers%202025-04-16.pdf)
