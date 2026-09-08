@@ -4,10 +4,11 @@
 
 This is the GitHub page for my O'Reilly Live Training courses on AI-assisted coding:
 
+* **[AI-Assisted Coding with Claude Code](https://learning.oreilly.com/live-events/ai-assisted-coding-with-claude-code/0642572416874/0642572416867/)**
 * **[AI-Assisted Coding with Claude and Cursor](https://www.oreilly.com/live-events/ai-assisted-coding-with-claude-and-cursor/0642572272111/0642572360702/)**
 * **[AI-Assisted Coding with ChatGPT and Copilot](https://learning.oreilly.com/live-events/ai-assisted-coding-with-chatgpt-and-copilot/0642572004454/0642572295813/)**
 
-Both courses cover prompt engineering fundamentals, AI-assisted code analysis, refactoring, and test generation. The exercises below work with either course—just choose your preferred language.
+All three courses cover prompt engineering fundamentals, AI-assisted code analysis, refactoring, and test generation. The exercises below work with any of the courses—just choose your preferred language.
 
 ---
 
