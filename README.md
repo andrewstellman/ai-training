@@ -13,6 +13,9 @@ Both courses cover prompt engineering fundamentals, AI-assisted code analysis, r
 
 ## Slide Decks
 
+### AI-Assisted Coding with Claude Code
+ * From the 09-Sep-2026 session: [```AI-Assisted Coding with Claude Code 2026-09-09.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20Claude%20Code%202026-09-09.pdf)
+
 ### AI-Assisted Coding with Claude and Cursor
  * From the 04-Jun-2026 session: [```AI-Assisted Coding with Claude and Cursor 2026-06-04.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20Claude%20and%20Cursor%202026-06-04.pdf)
  * From the 09-Apr-2026 session: [```AI-Assisted Coding with Claude and Cursor 2026-04-09.pdf```](https://github.com/andrewstellman/ai-training/raw/main/AI-Assisted%20Coding%20with%20Claude%20and%20Cursor%202026-04-09.pdf)
